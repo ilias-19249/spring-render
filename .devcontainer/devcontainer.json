@@ -1,0 +1,14 @@
+{
+    "name": "Spring Boot Project",
+    "image": "mcr.microsoft.com/devcontainers/java:17", // Use the desired Java version
+    "features": {
+        "maven": "latest"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack"
+            ]
+        }
+    }
+}
