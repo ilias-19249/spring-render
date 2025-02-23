@@ -11,6 +11,11 @@ public class UserController{
         return "Hellooo user";
     }
 
+    @GetMapping("/user")
+    public String hello(){
+        return "Hellooo user";
+    }
+
 }
 
 
